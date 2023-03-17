@@ -94,6 +94,21 @@
   color: crimson;
   font-weight: 550;
 }
+.resume2 a{
+  color: #fff;  
+}
+.resume2{
+  /* border: 1px solid red; */
+  padding: 12px;
+  padding-left: 18px;
+  padding-right: 18px;
+  font-family: "Ubuntu", sans-serif;
+  background-color: crimson;
+  text-decoration: none;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 500;
+}
 
 
 /* About Me styling */
