@@ -20,7 +20,7 @@
 <body>
     <!-- My Portfolio -->
     <!-- Navbar -->
-    <nav class="navbar" >
+    <nav class="navbar" id="navbar" >
         <div class="max-width">
             <!-- Left-Side -->
             <div class="logo"><a href="https://7r-rishi.github.io/"> 
@@ -29,14 +29,14 @@
             </div>
             <!-- Right-Side -->
             <ul class="menu" id="nav-menu">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#tech">Skills</a></li>
-                <li><a href="#projects">Project</a></li>
+                <li><a href="#home" class="nav-link home">Home</a></li>
+                <li><a href="#about" class="nav-link about">About Me</a></li>
+                <li><a href="#skills" class="nav-link skills">Skills</a></li>
+                <li><a href="#projects" class="nav-link projects">Project</a></li>
                 <li><a href="#gitCal">GitHub Stats</a></li>  
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#contact" class="nav-link contact">Contact</a></li>
                 <!-- <li><a href="">Resume</a></li> -->
-                <li><a download= "Hrishikesh_Sawant_Resume" href="./Resume/Hrishikesh_Sawant_Resume.pdf" onclick="window.open('https://drive.google.com/file/d/1Wz6bN2CojWyl_L1hQ7ibPZjeMjEG46VD/view?usp=share_link')" target="_blank" class="nav-link resume">Resume</a></li>
+                <li><a download= "Hrishikesh_Sawant_Resume" href="./Resume/Hrishikesh_Sawant_Resume.pdf" onclick="window.open('https://drive.google.com/file/d/1Wz6bN2CojWyl_L1hQ7ibPZjeMjEG46VD/view?usp=share_link')" target="_blank"  id="resume-link-1"  class="nav-link resume">Resume</a></li>
             </ul>
         </div>
     </nav>
@@ -44,7 +44,7 @@
     <!-- Home Section -->
     <section id="home">
         <div class="max-width">
-            <div class="home-content">
+            <div class="home-content" id="user-detail-name">
                 <div class="text-1" >Hello, My name is</div>
                 <div class="text-2" id="user-detail-name">Hrishikesh Sawant</div>
                 <div class="text-3">And I'm <span class="typing"></span></div>
@@ -61,7 +61,7 @@
 
             <!-- left-side-Image -->
             <div class="img">
-                <img src="./Image/Photo.jpg" alt="Hrishikesh_Sawant">
+                <img src="./Image/Photo.jpg" class="home-img" alt="Hrishikesh_Sawant">
             </div>
 
             <!-- Right-side Info -->
@@ -75,25 +75,25 @@
     </section>
 
     <!-- Tech Stack -->
-    <section class="techstack" id="tech">
+    <section class="techstack" id="skills">
 
         <h1>Tech Stack</h1>
 
         <div class="tech_container">
-            <div><img src="./Image/html_logo.png" alt=""><p>HTML</p></div>
-            <div><img src="./Image/css-logo.png" alt=""><p>CSS</p></div>
-            <div><img src="./Image/javascript-logo.webp" alt=""><p>JavaScript</p></div>
-            <div><img src="./Image/vscode-logo.png" alt=""><p>Visual Studio </p></div>
+            <div><img src="./Image/html_logo.png" class="skills-card-img"alt=""><p class="skills-card-name">HTML</p></div>
+            <div><img src="./Image/css-logo.png" class="skills-card-img"alt=""><p class="skills-card-name">CSS</p></div>
+            <div><img src="./Image/javascript-logo.webp" class="skills-card-img"alt=""><p class="skills-card-name">JavaScript</p></div>
+            <div><img src="./Image/vscode-logo.png" class="skills-card-img"alt=""><p class="skills-card-name">Visual Studio </p></div>
 
-            <div><img src="./Image/java.png" alt=""><p>Java</p></div>
-            <div><img src="./Image/spring-logo.png" alt=""><p>Spring Boot</p></div>
-            <div><img src="./Image/jdbc-logo.png" alt=""><p>JDBC</p></div>
-            <div><img src="./Image/mysql-logo.png" alt=""><p>MySQL</p></div>
+            <div><img src="./Image/java.png" class="skills-card-img"alt=""><p class="skills-card-name">Java</p></div>
+            <div><img src="./Image/spring-logo.png" class="skills-card-img"alt=""><p class="skills-card-name">Spring Boot</p></div>
+            <div><img src="./Image/jdbc-logo.png" class="skills-card-img"alt=""><p class="skills-card-name">JDBC</p></div>
+            <div><img src="./Image/mysql-logo.png" class="skills-card-img"alt=""><p class="skills-card-name">MySQL</p></div>
             
-            <div><img src="./Image/github-logo.png" alt=""><p>GitHub</p></div>
-            <div><img src="./Image/hibernate-logo.png" alt=""><p>Hibernate</p></div>
-            <div><img src="./Image/bootstrap-logo.png" alt=""><p>BootStrap</p></div>
-            <div><img src="./Image/git-logo.png" alt=""><p>Git</p></div>
+            <div><img src="./Image/github-logo.png" class="skills-card-img"alt=""><p class="skills-card-name">GitHub</p></div>
+            <div><img src="./Image/hibernate-logo.png" class="skills-card-img"alt=""><p class="skills-card-name">Hibernate</p></div>
+            <div><img src="./Image/bootstrap-logo.png" class="skills-card-img"alt=""><p class="skills-card-name">BootStrap</p></div>
+            <div><img src="./Image/git-logo.png" class="skills-card-img"alt=""><p class="skills-card-name">Git</p></div>
         
         </div>
 
@@ -104,27 +104,27 @@
         
         <h1>Projects</h1>
 
-        <div class="container-pro">
+        <div class="container-pro project-card">
             <!-- image -->
             <div class="left"><img src="./Image/project_1.png" alt="ScreenShot"></div>
             <!-- info section -->
             <div class="right">
-                <h2><span>Headphone Zone</span></h2>
-                <p>Headphone Zone is E-commerce website, A online store for the world's best headphones. Best prices on earphones, bluetooth headphones, headphones with mic, gaming headphones etc.</p>
-                <h4><span>Tech Stack</span> : HTML | CSS | JavaScript</h4>
-                <button><a href="https://github.com/7r-Rishi/quick-gun-3161.git">GitHub</a></button>
-                <button><a href="https://calm-alpaca-fe4843.netlify.app/">Live Site</a></button>
+                <h2 class="project-title"><span>Headphone Zone</span></h2>
+                <p class="project-description">Headphone Zone is E-commerce website, A online store for the world's best headphones. Best prices on earphones, bluetooth headphones, headphones with mic, gaming headphones etc.</p>
+                <h4 class="project-tech-stack"><span>Tech Stack</span> : HTML | CSS | JavaScript</h4>
+                <button><a href="https://github.com/7r-Rishi/quick-gun-3161.git" target="_blank" class="project-github-link">GitHub</a></button>
+                <button><a href="https://calm-alpaca-fe4843.netlify.app/" target="_blank" class="project-deployed-link">Live Site</a></button>
             </div>
         </div>
 
-        <div class="container-pro">
+        <div class="container-pro project-card">
             <!-- info section -->
             <div class="right">
-                <h2><span>Aroma</span></h2>
-                <p>Aroma is a global leader in personal care and home fragrance, including the #1 selling collections for fine fragrance mist, body lotion and body cream, 3-wick candles, home fragrance diffusers and liquid hand soap. </p>
-                <h4><span>Tech Stack</span> :  HTML | CSS | JavaScript |  Heroku Server</h4>
-                <button><a href="https://github.com/fw21-0395/attractive-songs-1315">GitHub</a></button>
-                <button><a href="https://iridescent-kitsune-def75b.netlify.app/">Live Site</a></button>
+                <h2 class="project-title"><span>Aroma</span></h2>
+                <p class="project-description">Aroma is a global leader in personal care and home fragrance, including the #1 selling collections for fine fragrance mist, body lotion and body cream, 3-wick candles, home fragrance diffusers and liquid hand soap. </p>
+                <h4 class="project-tech-stack"><span>Tech Stack</span> :  HTML | CSS | JavaScript |  Heroku Server</h4>
+                <button><a href="https://github.com/fw21-0395/attractive-songs-1315" target="_blank" class="project-github-link">GitHub</a></button>
+                <button><a href="https://iridescent-kitsune-def75b.netlify.app/" target="_blank" class="project-deployed-link">Live Site</a></button>
             </div>
             <!-- image -->
             <div class="left"><img src="https://fw21-0395.github.io/Projects/BathandBodyWorks.png" alt="ScreenShot"></div>
@@ -139,7 +139,7 @@
         <h1>GitHub <br> Calender & Statistics</h1>
 
         <!-- GitHub Calender -->    
-        <div class="calendar">
+        <div class="calendar react-activity-calendar">
             <!-- Loading stuff -->
             Loading the data just for you.
         </div> 
@@ -147,20 +147,20 @@
         <!-- GitHub Statistics -->    
         <div class="gitStats">
             <div>
-                <img src="https://github-readme-stats.vercel.app/api?username=7r-Rishi&show_icons=true&theme=swift&hide_border=false" alt="GitHub Stats"> 
+                <img src="https://github-readme-stats.vercel.app/api?username=7r-Rishi&show_icons=true&theme=swift&hide_border=false" id="github-stats-card" alt="GitHub Stats"> 
             </div>
 
             <div>
-                <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=7r-Rishi&layout=compact&theme=swift&hide_border=false" alt="Most Used Languages">
+                <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=7r-Rishi&layout=compact&theme=swift&hide_border=false"  id="github-top-langs"  alt="Most Used Languages">
             </div>
             
             <div>
-                <img src="https://streak-stats.demolab.com?user=7r-Rishi&theme=swift&hide_border=false" alt="Current Streak">
+                <img src="https://streak-stats.demolab.com?user=7r-Rishi&theme=swift&hide_border=false"  id="github-streak-stats" alt="Current Streak">
             </div>
         </div>
     </section>
 
-
+    <!-- Contact section -->
     <footer class="footer" id="contact">
         
         <h1>Contact Me</h1>
@@ -169,7 +169,7 @@
             
             <div>
                 <div><img src="./Image/footer/email-Icon.png" alt="Email-Icon"></div>
-                <div><a href="mailto:7r.rushi@gmail.com"><p>7r.rushi@gmail.com</p></a></div>
+                <div><a href="mailto:7r.rushi@gmail.com" target="_blank"  id="contact-email"><p>7r.rushi@gmail.com</p></a></div>
             </div> 
 
             <div>
@@ -179,17 +179,17 @@
 
             <div>
                 <div><img src="./Image/footer/linkedin Red.png" alt="location-Icon"></div>
-                <div><a href="#"><p>Hrishikesh Sawant</p></a></div>
+                <div><a href="https://www.linkedin.com/in/hrishikesh-sawant-7r/" target="_blank" id="contact-linkedin"><p>Hrishikesh Sawant</p></a></div>
             </div>
         
             <div>
                 <div><img src="./Image/footer/gitHub_red.png" alt="location-Icon"></div>
-                <div><a href="#"><p>7r-Rishi GitHub</p></a></div>
+                <div><a href="https://github.com/7r-Rishi" target="_blank" id="contact-github"><p>7r-Rishi GitHub</p></a></div>
             </div>
 
             <div>
                 <div><img src="./Image/footer/images (2).png" alt="location-Icon"></div>
-                <div><a href="#"><p>+91 9657095590</p></a></div>
+                <div><a href="#" id="contact-phone"><p>+91 9657095590</p></a></div>
             </div>
         
         </div>
