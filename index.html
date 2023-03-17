@@ -11,7 +11,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
     <!-- Link for contact icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
-    
+    <!--gitHub Calender-->
+    <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+    <!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
+    <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"/>
+       
 </head>
 <body>
     <!-- My Portfolio -->
@@ -29,6 +33,7 @@
                 <li><a href="#">About Me</a></li>
                 <li><a href="#">Skills</a></li>
                 <li><a href="#">Project</a></li>
+                <li><a href="#">GitHub Stats</a></li>  
                 <li><a href="#">Contact</a></li>
                 <!-- <li><a href="">Resume</a></li> -->
                 <li><a download= "Hrishikesh_Sawant_Resume" href="./Resume/Hrishikesh_Sawant_Resume.pdf" onclick="window.open('https://drive.google.com/file/d/1Wz6bN2CojWyl_L1hQ7ibPZjeMjEG46VD/view?usp=share_link')" target="_blank" class="nav-link resume">Resume</a></li>
@@ -128,47 +133,72 @@
 
     </section>
 
-    <!-- GitHub Calender -->
+    
+    <!-- GitHub Calender & Statistics -->    
     <section class="gitCalender">
-        <h1>GitHub Calender</h1>
+        <h1>GitHub <br> Calender & Statistics</h1>
+
+        <!-- GitHub Calender -->    
+        <div class="calendar">
+            <!-- Loading stuff -->
+            Loading the data just for you.
+        </div> 
+        
+        <!-- GitHub Statistics -->    
+        <div class="gitStats">
+            <div>
+                <img src="https://github-readme-stats.vercel.app/api?username=7r-Rishi&show_icons=true&theme=swift&hide_border=false" alt="GitHub Stats"> 
+            </div>
+
+            <div>
+                <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=7r-Rishi&layout=compact&theme=swift&hide_border=false" alt="Most Used Languages">
+            </div>
+            
+            <div>
+                <img src="https://streak-stats.demolab.com?user=7r-Rishi&theme=swift&hide_border=false" alt="Current Streak">
+            </div>
+        </div>
     </section>
 
 
-     
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <footer class="footer">
-              
-        <div class="footer_menu">
-            <ul>
-                <li><a href="#"><img src="./Image/footer/linkedin Red.png" alt=""></a></li>
-                <li><a href="mailto:7r.rushi@gmail.com"><img src="./Image/footer/email red1.png" alt=""></a></li>                
-                <li><a href="#"><img src="./Image/footer/gitHub_red.png" alt=""></a></li>
-            </ul>
+        
+        <h1>Contact Me</h1>
+
+        <div class="footer-list">
+            
+            <div>
+                <div><img src="./Image/footer/email-Icon.png" alt="Email-Icon"></div>
+                <div><a href="mailto:7r.rushi@gmail.com"><p>7r.rushi@gmail.com</p></a></div>
+            </div> 
+
+            <div>
+                <div><img src="./Image/footer/location-Icon.png" alt="location-Icon"></div>
+                <div><a href="#"><p>Pune, Maharashtra</p></a></div>
+            </div>
+
+            <div>
+                <div><img src="./Image/footer/linkedin Red.png" alt="location-Icon"></div>
+                <div><a href="#"><p>Hrishikesh Sawant</p></a></div>
+            </div>
+        
+            <div>
+                <div><img src="./Image/footer/gitHub_red.png" alt="location-Icon"></div>
+                <div><a href="#"><p>7r-Rishi GitHub</p></a></div>
+            </div>
+
+            <div>
+                <div><img src="./Image/footer/images (2).png" alt="location-Icon"></div>
+                <div><a href="#"><p>+91 9657095590</p></a></div>
+            </div>
+        
         </div>
         
-        <p>©Designed by Hrishikesh Sawant | 2023</p>
+        <p class="design">© Designed by Hrishikesh Sawant | 2023</p>
         
     </footer>
 
-
+  
 </body>
 </html>
 <script src="./index.js"></script>
