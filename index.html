@@ -81,20 +81,20 @@
         <h1>Tech Stack</h1>
 
         <div class="tech_container">
-            <div><img src="./Image/html_logo.png" class="skills-card-img"alt=""><p class="skills-card-name">HTML</p></div>
-            <div><img src="./Image/css-logo.png" class="skills-card-img"alt=""><p class="skills-card-name">CSS</p></div>
-            <div><img src="./Image/javascript-logo.webp" class="skills-card-img"alt=""><p class="skills-card-name">JavaScript</p></div>
-            <div><img src="./Image/vscode-logo.png" class="skills-card-img"alt=""><p class="skills-card-name">Visual Studio </p></div>
+            <div class="skills-card"><img src="./Image/html_logo.png" class="skills-card-img"alt=""><p class="skills-card-name">HTML</p></div>
+            <div class="skills-card"><img src="./Image/css-logo.png" class="skills-card-img"alt=""><p class="skills-card-name">CSS</p></div>
+            <div class="skills-card"><img src="./Image/javascript-logo.webp" class="skills-card-img"alt=""><p class="skills-card-name">JavaScript</p></div>
+            <div class="skills-card"><img src="./Image/vscode-logo.png" class="skills-card-img"alt=""><p class="skills-card-name">Visual Studio </p></div>
 
-            <div><img src="./Image/java.png" class="skills-card-img"alt=""><p class="skills-card-name">Java</p></div>
-            <div><img src="./Image/spring-logo.png" class="skills-card-img"alt=""><p class="skills-card-name">Spring Boot</p></div>
-            <div><img src="./Image/jdbc-logo.png" class="skills-card-img"alt=""><p class="skills-card-name">JDBC</p></div>
-            <div><img src="./Image/mysql-logo.png" class="skills-card-img"alt=""><p class="skills-card-name">MySQL</p></div>
-            
-            <div><img src="./Image/github-logo.png" class="skills-card-img"alt=""><p class="skills-card-name">GitHub</p></div>
-            <div><img src="./Image/hibernate-logo.png" class="skills-card-img"alt=""><p class="skills-card-name">Hibernate</p></div>
-            <div><img src="./Image/bootstrap-logo.png" class="skills-card-img"alt=""><p class="skills-card-name">BootStrap</p></div>
-            <div><img src="./Image/git-logo.png" class="skills-card-img"alt=""><p class="skills-card-name">Git</p></div>
+            <div class="skills-card"><img src="./Image/java.png" class="skills-card-img"alt=""><p class="skills-card-name">Java</p></div>
+            <div class="skills-card"><img src="./Image/spring-logo.png" class="skills-card-img"alt=""><p class="skills-card-name">Spring Boot</p></div>
+            <div class="skills-card"><img src="./Image/jdbc-logo.png" class="skills-card-img"alt=""><p class="skills-card-name">JDBC</p></div>
+            <div class="skills-card"><img src="./Image/mysql-logo.png" class="skills-card-img"alt=""><p class="skills-card-name">MySQL</p></div>
+
+            <div class="skills-card"><img src="./Image/github-logo.png" class="skills-card-img"alt=""><p class="skills-card-name">GitHub</p></div>
+            <div class="skills-card"><img src="./Image/hibernate-logo.png" class="skills-card-img"alt=""><p class="skills-card-name">Hibernate</p></div>
+            <div class="skills-card"><img src="./Image/bootstrap-logo.png" class="skills-card-img"alt=""><p class="skills-card-name">BootStrap</p></div>
+            <div class="skills-card"><img src="./Image/git-logo.png" class="skills-card-img"alt=""><p class="skills-card-name">Git</p></div>
         
         </div>
 
@@ -131,6 +131,32 @@
             <div class="left"><img src="https://fw21-0395.github.io/Projects/BathandBodyWorks.png" alt="ScreenShot"></div>
         </div>
 
+        
+        <div class="container-pro project-card">
+            <!-- image -->
+            <div class="left"><img src="./Image/project_1.png" alt="ScreenShot"></div>
+            <!-- info section -->
+            <div class="right">
+                <h2 class="project-title"><span>Headphone Zone</span></h2>
+                <p class="project-description">Headphone Zone is E-commerce website, A online store for the world's best headphones. Best prices on earphones, bluetooth headphones, headphones with mic, gaming headphones etc.</p>
+                <h4 class="project-tech-stack"><span>Tech Stack</span> : HTML | CSS | JavaScript</h4>
+                <button><a href="https://github.com/7r-Rishi/quick-gun-3161.git" target="_blank" class="project-github-link">GitHub</a></button>
+                <button><a href="https://calm-alpaca-fe4843.netlify.app/" target="_blank" class="project-deployed-link">Live Site</a></button>
+            </div>
+        </div>
+
+        <div class="container-pro project-card">
+            <!-- info section -->
+            <div class="right">
+                <h2 class="project-title"><span>Aroma</span></h2>
+                <p class="project-description">Aroma is a global leader in personal care and home fragrance, including the #1 selling collections for fine fragrance mist, body lotion and body cream, 3-wick candles, home fragrance diffusers and liquid hand soap. </p>
+                <h4 class="project-tech-stack"><span>Tech Stack</span> :  HTML | CSS | JavaScript |  Heroku Server</h4>
+                <button><a href="https://github.com/fw21-0395/attractive-songs-1315" target="_blank" class="project-github-link">GitHub</a></button>
+                <button><a href="https://iridescent-kitsune-def75b.netlify.app/" target="_blank" class="project-deployed-link">Live Site</a></button>
+            </div>
+            <!-- image -->
+            <div class="left"><img src="https://fw21-0395.github.io/Projects/BathandBodyWorks.png" alt="ScreenShot"></div>
+        </div>
 
     </section>
 
@@ -140,7 +166,7 @@
         <h1>GitHub <br> Calender & Statistics</h1>
            
 
-        <div class="calendar">
+        <div class="calendar react-activity-calendar">
             <!-- Loading stuff -->
             Loading the data just for you.
         </div> 
@@ -148,15 +174,15 @@
         <!-- GitHub Statistics -->    
         <div class="gitStats">
             <div>
-                <img src="https://github-readme-stats.vercel.app/api?username=7r-Rishi&show_icons=true&theme=swift&hide_border=false" id="github-stats-card" alt="GitHub Stats"> 
+                <img id="github-stats-card" src="https://github-readme-stats.vercel.app/api?username=7r-Rishi&show_icons=true&theme=swift&hide_border=false"  alt="GitHub Stats"> 
             </div>
 
             <div>
-                <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=7r-Rishi&layout=compact&theme=swift&hide_border=false"  id="github-top-langs"  alt="Most Used Languages">
+                <img id="github-top-langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=7r-Rishi&layout=compact&theme=swift&hide_border=false"    alt="Most Used Languages">
             </div>
             
             <div>
-                <img src="https://streak-stats.demolab.com?user=7r-Rishi&theme=swift&hide_border=false"  id="github-streak-stats" alt="Current Streak">
+                <img id="github-streak-stats" src="https://streak-stats.demolab.com?user=7r-Rishi&theme=swift&hide_border=false"   alt="Current Streak">
             </div>
         </div>
     </section>
