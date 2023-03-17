@@ -265,16 +265,16 @@ h4 {
 
 .gitCalender {
   padding: 50px; 
-  padding-top: 70px;
+  padding-top: 60px;
   /* color: crimson; */
   /* background-color: black; */
   /* border: 1px solid red; */
 }
 .gitCalender > h1 {
-  font-size: 60px;
+  font-size: 50px;
   font-weight: 600;
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   color: crimson;
   font-family: "Ubuntu", sans-serif;
 }

@@ -15,6 +15,7 @@
     <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
     <!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
     <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"/>
+    <!-- GitHub Calender --> 
        
 </head>
 <body>
@@ -137,13 +138,13 @@
     <!-- GitHub Calender & Statistics -->    
     <section class="gitCalender" id="gitCal">
         <h1>GitHub <br> Calender & Statistics</h1>
+           
 
-        <!-- GitHub Calender -->    
-        <div class="calendar react-activity-calendar">
+        <div class="calendar">
             <!-- Loading stuff -->
             Loading the data just for you.
         </div> 
-        
+ 
         <!-- GitHub Statistics -->    
         <div class="gitStats">
             <div>
@@ -184,7 +185,7 @@
         
             <div>
                 <div><img src="./Image/footer/gitHub_red.png" alt="location-Icon"></div>
-                <div><a href="https://github.com/7r-Rishi" target="_blank" id="contact-github"><p>7r-Rishi GitHub</p></a></div>
+                <div><a href="#" target="_blank" id="contact-github"><p>7r-Rishi GitHub</p></a></div>
             </div>
 
             <div>
@@ -202,3 +203,9 @@
 </body>
 </html>
 <script src="./index.js"></script>
+<script>
+    GitHubCalendar(".calendar", "7r-Rishi");
+
+// or enable responsive functionality:
+GitHubCalendar(".calendar", "7r-Rishi", { responsive: true });
+</script>
