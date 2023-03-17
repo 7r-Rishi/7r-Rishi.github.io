@@ -43,9 +43,7 @@
 /* logo */
 .navbar .logo a img {
   margin-top: 10px;
-  /* border: 1px solid blue; */
   height: 40px;
-  /* margin: auto; */
 }
 /* logo */
 .navbar .menu li {
@@ -61,6 +59,24 @@
 .navbar .menu li a:hover {
   color: crimson;
 }
+#resume-button-1{
+  background: crimson;
+  color:#fff;
+  font-family: "Ubuntu", sans-serif;
+  padding: 9px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 700;
+  display: block;
+  /* width: 90px; */
+  /* color: crimson; */
+}
+#resume-button-1:hover{
+  /* background: #fff; */
+  color:crimson;
+  color: black;
+}
+
 
 /* home section styling */
 
@@ -116,11 +132,15 @@
   padding: 12px 18px 12px 18px;
   border-radius: 9px;
   font-size: 20px;
+  font-weight: 700;
   margin: 10px;
   display: block;
   width: 110px;
 }
-
+#resume-button-2:hover{
+  color:crimson;
+  color: black;
+}
 /* About Me styling */
 #about {
   padding: 50px;
