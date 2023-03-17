@@ -44,7 +44,7 @@
 .navbar .logo a img {
   margin-top: 10px;
   /* border: 1px solid blue; */
-  height: 50px;
+  height: 40px;
   /* margin: auto; */
 }
 /* logo */
@@ -95,12 +95,15 @@
   font-weight: 550;
 }
 
-/* About Me styling */
 
+/* About Me styling */
 #about {
   padding: 50px;
+  padding-top: 100px;
   background-color: black;
-  color: #fff;
+  color: #fff; 
+  /* height: 100vh; */
+  min-height: 500px;
 }
 #about > h1 {
   font-size: 60px;
@@ -148,9 +151,11 @@
 
 /* Tech Stack Styling  */
 .techstack {
-  margin-top: 60px;
-  margin-bottom: 70px;
-  /* color: #fff; */
+  /* margin-top: 50px; */
+  margin-bottom: 50px;
+  padding-top: 100px;
+  height: 100vh;
+  min-height: 500px;
 }
 .techstack > h1 {
   font-size: 60px;
@@ -162,11 +167,11 @@
 .tech_container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 40px;
+  gap: 30px;
   margin: auto;
   /* border: 1px solid red; */
   /*  */
-  max-width: 1300px;
+  max-width: 1200px;
   font-family: "Ubuntu", sans-serif;
 }
 .tech_container > div {
@@ -192,6 +197,7 @@
 /* Projects Styling */
 #projects {
   padding: 50px;
+  padding-top: 100px;
   background-color: black;
   color: #fff;
   /* border: 1px solid red; */
@@ -258,7 +264,8 @@ h4 {
 /* git calender */
 
 .gitCalender {
-  padding: 50px;
+  padding: 50px; 
+  padding-top: 70px;
   /* color: crimson; */
   /* background-color: black; */
   /* border: 1px solid red; */
