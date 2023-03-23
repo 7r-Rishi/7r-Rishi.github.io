@@ -113,18 +113,6 @@
 .resume2 a{
   color: #fff;  
 }
-/* .resume2{
-  border: 1px solid red;
-  padding: 12px;
-  padding-left: 18px;
-  padding-right: 18px;
-  font-family: "Ubuntu", sans-serif;
-  background-color: crimson;
-  text-decoration: none;
-  border-radius: 10px;
-  font-size: 18px;
-  font-weight: 500;
-} */
 .resume2{
   background: crimson;
   color:#fff;
@@ -140,6 +128,10 @@
 #resume-button-2:hover{
   color:crimson;
   color: black;
+}
+
+.resume2 > button{
+  background: crimson;
 }
 /* About Me styling */
 #about {
